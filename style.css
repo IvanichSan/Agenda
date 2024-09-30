@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: kanit;
+    background-color: #001F3F;
+    color: #EAD8B1;
+    padding: 20px;
+}
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #3A6D8C;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #001F3F;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+.form-group{
+    margin-bottom: 15px;
+
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #6A9AB0;
+    border-radius: 5px;
+}
+
+button{
+    display: inline-block;
+    background-color: #6A9AB0;
+    color: #EAD8B1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: kanit;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: #001F3F;
+}
+
+#event-list{
+    margin-top: 30px;
+
+}
+
+#events{
+    list-style: none;
+    padding: 0;
+}
+
+#events li{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.delete-btn{
+    background-color: #001F3F;
+    color: #EAD8B1;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-family: kanit;
+    font-size: 15px;
+}
+
+.delete-btn:hover{
+    background-color: #6A9AB0;
+}
