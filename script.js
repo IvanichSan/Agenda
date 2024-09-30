@@ -10,7 +10,7 @@ eventForm.addEventListener('submit', function(e) {
     const eventFecha = eventFechaInput.value;
 
     if (eventTitle===''|| eventFecha==='') {
-        alert('Por Favor completa los campos!!');
+        alert('Falta Titulo y/o Fecha');
         return;
     }
 
